@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TV Show Search App</title>
+</head>
+<body>
+    <div class="main">
+        <h1 id="header">TV Show Search</h1>
+        <form  id="searchForm">
+            <input type="text" placeholder="Search for movie" name="query" id="input">
+            <button  id="btn">Search</button>
+        </form>
+        <div class="container">
+            
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modalContent">
+            <span id="close">&times;</span>
+            <div class="modalFlex">
+                <div class="modalImgDiv">
+                    <img src="" alt="Image" id="modalImage">
+                </div>
+                <div class="modalText">
+                    <h1 id="modalH1">The Name of The Movie</h1>
+                    <h3 id="modalGenre">The Genre</h3>
+                    <p id="modalDes">The Description was not found!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
